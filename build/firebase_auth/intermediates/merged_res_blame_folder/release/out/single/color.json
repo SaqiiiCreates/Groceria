@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Flutter\\grocery4\\build\\firebase_auth\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Saqib\\.gradle\\caches\\transforms-2\\files-2.1\\c6f815d9364a8658b97a18d54abbdcd4\\jetified-play-services-base-17.1.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Flutter\\grocery4\\build\\firebase_auth\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Saqib\\.gradle\\caches\\transforms-2\\files-2.1\\c6f815d9364a8658b97a18d54abbdcd4\\jetified-play-services-base-17.1.0\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Flutter\\grocery4\\build\\firebase_auth\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Saqib\\.gradle\\caches\\transforms-2\\files-2.1\\c6f815d9364a8658b97a18d54abbdcd4\\jetified-play-services-base-17.1.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    }
+]

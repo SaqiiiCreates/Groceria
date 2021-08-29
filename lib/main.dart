@@ -1,32 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:grocery3/helper/grocery_provider.dart';
-import 'package:grocery3/Screens/list.dart';
-// ignore: import_of_legacy_library_into_null_safe
-import 'package:provider/provider.dart';
-import 'package:grocery3/Screens/list_edit.dart';
-import 'package:grocery3/Screens/list_view.dart';
+import 'package:grocery4/Pages/Register/Login/Signin.dart';
+import 'Customs/Constants.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:splashscreen/splashscreen.dart';
 
-
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  
   @override
-  Widget build(BuildContext context) {
-    return ChangeNotifierProvider.value(
-      value: GroceryProvider(),
-      child: MaterialApp(
-        title: "Groceria",
-        debugShowCheckedModeBanner: false,
-        initialRoute: '/',
-        routes: {
-          '/': (context) => List(),
-        // ListView.route: (context) => ListView(),
-        ListEdit.route: (context) => ListEdit(),
-        },
-      ),
+  Widget build(BuildContext context) {       
+    return MaterialApp(
+      home: SplashScreen(
+      seconds: 14,
+      navigateAfterSeconds: new SignIn(),
+      backgroundColor: BackgroundColor,
+      title: new Text('Groceria',textScaleFactor: 2,style: TextStyle(color: TextColor),),
+      styleTextUnderTheLoader: new TextStyle(),
+      photoSize: 100.0,
+      onClick: ()=>print("Lorem Ipsum Dolor Sit Amet"),
+      loaderColor: TextColor,
+      )     
     );
   }
 }

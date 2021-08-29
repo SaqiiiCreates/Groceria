@@ -1,0 +1,4 @@
+#Sat Aug 28 20:16:14 PKT 2021
+base.0=C\:\\Flutter\\grocery4\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

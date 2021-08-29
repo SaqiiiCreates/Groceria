@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.grocery3">
+    package="com.example.grocery4">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="grocery3"
+        android:label="Groceria"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
